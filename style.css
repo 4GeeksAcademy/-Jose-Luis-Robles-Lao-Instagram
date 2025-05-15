@@ -1,80 +1,66 @@
-* {
+ body {
     margin: 0;
     padding: 0;
     border: 0;
+ }
 
-}
-
-
-#inicio {
+ #inicio {
     width: 100%;
     height: 100vh;
-    baackground-color: #ccc;
+    background-color: #ffffff;
+ }
+
+.contenedor {
+    width: 100%;
+    height: auto;
 }
 
-#inicio .contenedor {
-    widht: 100%;
-    height: auto:
-
-}
-
-#inicio .contenedor header {
-    widht: 100%;
-    background-color: rgb(255, 255, 255);
+ .Cabezera {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(117, 112, 112);
     padding-top: 10px;
     padding-bottom: 10px;
-
 }
 
-#inicio .contenedor header .titulo {
-    width: 400px;
-    margin: 0 auto;
-    
-
-}
-
-#inicio .contenedor .contenido {
-    widht: 100%;
-    height: 90vh;
-    overflow-y: scroll;
-}
 .post {
     width: 400px;
-    margin: 20px auto;
+    margin: 0 auto;
+    background-color: #04e9c3;
 }
 
-.post .post-header {
+.post-header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    aling-items: center;
+    align-items: center;
     padding: 0 10px;
     box-sizing: border-box;
 }
 
-.post .post-body {
-    width: 100px;
-    height: 400px;
+.post-body {
+    width: 400px;
+    height: auto;
     overflow: hidden;
 }
-.post .post-body img {
-    width: 100%;
+
+.post-body img {
+    width: 100;
     height: 400px;
-    object-fit: cover;
-    object-position: center;
 }
 
-.post .post-footer {
+.post-footer {
     width: 100%;
     height: auto;
     padding: 10px 10px;
     box-sizing: border-box;
-    background-color: white;
-
-    
-}
-
-.post .post-footer p {
     text-align: justify;
     text-transform: capitalize;
+    background-color: #04e9c3;
 }
+
+/* .post .post-footer p {
+    text-align: justify;
+    text-transform: capitalize;
+} */
